@@ -86,6 +86,8 @@ body {
 }
 
 body {
+  background-color: #f1f1f1;
+  height: 100vh;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -104,4 +106,25 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.wrap{
+  margin:100px auto;
+  text-align: center;
+  border: 1px dotted #000;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 7px #000;
+  line-height: 45px;
+}
+
+.wrap:hover{
+  background-color: #080808;
+  color: #fff;
+}
+
+.title{
+  color: tomato;
+  font-family: 'Times New Roman', Times, serif;
 }
